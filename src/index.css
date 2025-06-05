@@ -4,6 +4,8 @@
 	--backcolor: #040f1a;
 	--backcolor-header-card: #0b1b2b;
 	--font-default: #e7edf4;
+	--font-base-text: #afc2d4;
+	--font-base-span: #7b96b2;
 }
 
 html {
@@ -11,5 +13,5 @@ html {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Nunito", sans-serif;
 }

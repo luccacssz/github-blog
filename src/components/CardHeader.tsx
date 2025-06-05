@@ -10,18 +10,18 @@ const CardHeader = () => {
 
 	return (
 		<div className="flex items-center justify-between p-4 bg-[var(--backcolor-header-card)] rounded-l-md rounded-r-md sm:w-[54rem] sm:h-[12rem] z-10 sm:-mt-16">
-			<div className="flex text-[var(--font-default)] gap-4 flex-col sm:flex-row">
+			<div className="flex text-[var(--font-default)] gap-4 flex-col sm:flex-row ">
 				<div
-					className="w-[18rem] h-[8rem] rounded-2xl bg-cover bg-center"
+					className="w-[18rem] h-[8rem] rounded-2xl bg-cover bg-center hidden sm:block"
 					style={{ backgroundImage: `url(${avatarUrl})` }}
 				/>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col gap-2 text-sm ">
 					<div className="flex w-full justify-between flex-col sm:flex-row">
-						<div className="sm:text-3xl font-semibold">{userName}</div>
+						<div className="sm:text-2xl font-semibold">{userName}</div>
 						<div>Github</div>
 					</div>
 					<div className="flex flex-col gap-2">
-						<div>
+						<div className="font-normal text-[var(--font-base-text)]">
 							Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu
 							viverra massa quam dignissim aenean malesuada suscipit. Nunc,
 							volutpat pulvinar vel mass.
